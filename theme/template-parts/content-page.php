@@ -10,8 +10,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-  <?php the_post_thumbnail('large'); ?>
+	<div class="hero">
+    	<?php the_post_thumbnail('header-image'); ?>
+    	</div>
 
   <div class="entry-content">
     <?php the_content(); ?>

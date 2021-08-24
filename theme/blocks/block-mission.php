@@ -1,6 +1,6 @@
  <section id="mission" class="white-text" style="background-image: url(<?php block_field( 'background-image' ); ?>);">
-   <div class="container padded">
-   <div class="row">
+   <div class="container">
+   <div class="row padded">
      <div class="column forty">
        <h2><?php block_field( 'headline' ); ?></h2>
        <?php block_field( 'copy' ); ?>
