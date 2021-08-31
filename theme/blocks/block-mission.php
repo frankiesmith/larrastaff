@@ -10,22 +10,28 @@
        <div class="featured-icons">
        <div class="row thirds">
          <div class="column">
+          <a href="<?php block_field( 'icon-1-link' ); ?>">
            <div class="icon who-we-are">
             <?php echo file_get_contents( get_template_directory() . '/img/who-we-are.svg' ); ?>
            </div>
-           <h3 class="icon-title"><?php block_field( 'icon-1-title' ); ?></h3>
+         </a>
+           <h3 class="icon-title"><a href="<?php block_field( 'icon-1-link' ); ?>"><?php block_field( 'icon-1-title' ); ?></a></h3>
          </div>
          <div class="column">
+          <a href="<?php block_field( 'icon-2-link' ); ?>">
            <div class="icon current-listings">
              <?php echo file_get_contents( get_template_directory() . '/img/current-listings.svg' ); ?>
            </div>
-           <h3 class="icon-title"><?php block_field( 'icon-2-title' ); ?></h3>
+         </a>
+           <h3 class="icon-title"><a href="<?php block_field( 'icon-2-link' ); ?>"><?php block_field( 'icon-2-title' ); ?></a></h3>
          </div>
          <div class="column">
+          <a href="<?php block_field( 'icon-3-link' ); ?>">
            <div class="icon get-started">
              <?php echo file_get_contents( get_template_directory() . '/img/get-started.svg' ); ?>
            </div>
-           <h3 class="icon-title"><?php block_field( 'icon-3-title' ); ?></h3>
+         </a>
+           <h3 class="icon-title"><a href="<?php block_field( 'icon-3-link' ); ?>"><?php block_field( 'icon-3-title' ); ?></a></h3>
          </div>
        </div>
      </div>

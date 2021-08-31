@@ -75,6 +75,23 @@
     </div>
     <div class="column large">
       <div class="sub-nav">
+        <div class="nav-icons">
+          <span class="nav-icon">
+            <a href="tel:5086560059">
+            <img src="/wp-content/uploads/2021/08/phone-icon-dark.png"/>
+            </a>
+          </span>
+          <span class="nav-icon">
+            <a href="mailto:andrew@larrastaff.com">
+            <img src="/wp-content/uploads/2021/08/mail-icon-dark.png"/>
+            </a>
+          </span>
+          <span class="nav-icon">
+            <a href="https://www.linkedin.com/company/larrastaff/" target="_blank">
+            <img src="/wp-content/uploads/2021/08/LI-In-Bug-dark.png"/>
+            </a>
+          </span>
+        </div>
         <div class="address">1500 Worcester Road, Suite F, Framingham, MA 01702</div>
       </div>
       <nav id="site-navigation" class="main-navigation">

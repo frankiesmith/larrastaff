@@ -1,4 +1,13 @@
-<section id="explore" class="white-text">
+<?php
+$block_color = block_value( 'white-background' );
+
+$class = 'explore';
+if ( block_value( 'white-background' ) ) {
+  $class .= ' white-background';
+}
+?>
+
+<section id="explore" class="white-text <?php echo $class; ?>">
   <div class="container">
    <div class="row padded">
      <div class="column forty">

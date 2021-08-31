@@ -7,7 +7,7 @@
        </div>
      </div>
      <div class="column text-column pad-left">
-       <h1><?php block_field( 'headline' ); ?></h1>
+       <h1 class="page-section"><?php block_field( 'headline' ); ?></h1>
        <?php block_field( 'copy' ); ?>
      </div>
    </div>
